@@ -14,7 +14,7 @@ body:
       description: What version of DBeaver are you running?
       placeholder: ex. Community Edition 22.1.0
     validations:
-      required: false
+      required: true
   - type: input
     id: os-kind
     attributes:
@@ -22,7 +22,7 @@ body:
       description: Could you please fill a OS and enhancment do you use?
       placeholder: ex. Ubuntu 20.4
     validations:
-      required: false
+      required: true
   - type: textarea
     id: what-happened
     attributes:
@@ -31,17 +31,14 @@ body:
       placeholder: Tell us what you see!
       value: "A bug happened!"
     validations:
-      required: true
+      required: false
   - type: textarea
     id: logs
     attributes:
       label: Relevant log output
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-  - type: markdown
-    attributes: 
-      label: log-files
-        After creating a bug report, we will review it. We may need logs and in this article we talked about how to extract them [Wiki:Log files](https://github.com/dbeaver/dbeaver/wiki/Log-files)
   - type: textarea
+    id: steps
     attributes:
       label: Steps To Reproduce
       description: Steps to reproduce the behavior.
