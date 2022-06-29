@@ -3,3 +3,6 @@ contact_links:
   - name: How extract logs file from DBeaver
     url: https://github.com/dbeaver/dbeaver/wiki/Log-files
     about: A common thigs you should know before create a bug report 
+  - name: Try to install the last version of DBeaver
+    url: https://dbeaver.io/download/
+    about: Possible we already fixed your issue
