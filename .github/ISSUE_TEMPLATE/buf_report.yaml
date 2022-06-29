@@ -28,12 +28,11 @@ body:
     attributes:
       label: Relevant log output
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-          A bug happened!
+      placeholder: |
+         A bug happened!
           1. In this environment...
           2. With this config...
           3. Run '...'
           4. See error...
-      placeholder: |
-         Tell us what you see!
     validations:
       required: false
