@@ -35,6 +35,5 @@ body:
           4. See error...
       placeholder: |
          Tell us what you see!
-      render: shell
     validations:
       required: false
