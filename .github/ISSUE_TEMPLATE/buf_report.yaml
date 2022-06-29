@@ -1,7 +1,7 @@
 name: Bug Report ver.2
 description: File a bug report
 title: "[Bug]: "
-labels: [bug, wait for review]
+labels: [bug]
 body:
   - type: markdown
     attributes:
