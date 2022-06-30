@@ -34,6 +34,11 @@ body:
     attributes:
       label: Steps to reproduce
       description: Provide a detailed list of steps that reproduce the issue.
+      placeholder: |
+        1. In this environment...
+        2. With this config...
+        3. Run '...'
+        4. See error...
     validations:
       required: true
   - type: textarea
