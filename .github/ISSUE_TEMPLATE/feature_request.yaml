@@ -1,5 +1,5 @@
 name: New Feature - Request a new feature for our Platforms
-description: Suggest an idea for DBeaver.
+description: Suggest an idea for DBeaver
 labels: ['type: feature request']
 body:
   - type: textarea
