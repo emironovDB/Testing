@@ -19,7 +19,7 @@ body:
     id: os-kind
     attributes:
       label: Kind of operating system
-      description: Could you please fill a OS and enhancment do you use?
+      description: Could you please fill a OS and enhancement do you use?
       placeholder: ex. Ubuntu 20.4
     validations:
       required: true

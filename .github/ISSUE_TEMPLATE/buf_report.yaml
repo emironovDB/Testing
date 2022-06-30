@@ -19,7 +19,7 @@ body:
     id: os-kind
     attributes:
       label: Kind of operating system
-      description: Could you please fill a OS and enhancment do you use?
+      description: Could you please fill a OS and enhancement do you use?
       placeholder: ex. macOS Big Sur 11.5.2
     validations:
       required: true

@@ -21,11 +21,12 @@ body:
       placeholder: ex. Community Edition 22.1.0
     validations:
       required: true
-  - type: textarea
-    id: react-native-info
+  - type: input
+    id: os-kind
     attributes:
-      label: Output of `npx react-native info`
-      description: Run `npx react-native info` in your terminal, copy and paste the results here.
+      label: Kind of operating system
+      description: Could you please fill a OS and enhancement do you use?
+      placeholder: ex. Ubuntu 20.4
     validations:
       required: true
   - type: textarea
