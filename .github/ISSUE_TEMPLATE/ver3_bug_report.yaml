@@ -24,7 +24,7 @@ body:
   - type: input
     id: version
     attributes:
-      label: Version
+      label: Version DBeaver
       description: What version of DBeaver are you running?
       placeholder: ex. Community Edition 22.1.0
     validations:
@@ -32,7 +32,7 @@ body:
   - type: input
     id: os-kind
     attributes:
-      label: Kind of operating system
+      label: Kind of Operating System
       description: Could you please fill a OS and enhancement do you use?
       placeholder: ex. macOS Big Sur 11.5.2
     validations:
