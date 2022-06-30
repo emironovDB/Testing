@@ -33,7 +33,7 @@ body:
     attributes:
       label: Kind of operating system
       description: Could you please fill a OS and enhancement do you use?
-      placeholder: ex. Ubuntu 20.4
+      placeholder: ex. macOS Big Sur 11.5.2
     validations:
       required: true
   - type: textarea
@@ -56,8 +56,5 @@ body:
         Please provide a log-file, a link to a repository on GitHub, or provide a minimal code example that reproduces the problem.
         This article can help you: [How extract the log-files from DBeaver](https://github.com/dbeaver/dbeaver/wiki/Log-files).
         You may provide a screenshot of the application if you think it is relevant to your bug report.
-        
-        [Here are some tips for providing a minimal example.](https://stackoverflow.com/help/mcve)
-        **Please note that a reproducer is mandatory. Issues without reproducer are more likely to stall and will be closed.**
     validations:
       required: false
