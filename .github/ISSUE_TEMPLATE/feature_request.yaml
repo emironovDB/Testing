@@ -1,7 +1,7 @@
 name: New Feature - Request a new feature for our Platforms
 description: Suggest an idea for DBeaver
 labels: [feature request]
-project: [asd]
+project: asd
 body:
   - type: textarea
     attributes:
