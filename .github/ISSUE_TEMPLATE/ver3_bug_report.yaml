@@ -24,7 +24,7 @@ body:
   - type: input
     id: version
     attributes:
-      label: Version DBeaver
+      label: DBeaver Version
       description: What version of DBeaver are you running?
       placeholder: ex. Community Edition 22.1.0
     validations:
