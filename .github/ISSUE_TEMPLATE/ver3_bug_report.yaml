@@ -32,7 +32,7 @@ body:
   - type: input
     id: os-kind
     attributes:
-      label: Kind of Operating System
+      label: Operating System
       description: What an OS do you use?
       placeholder: ex. macOS Big Sur 11.5.2
     validations:
