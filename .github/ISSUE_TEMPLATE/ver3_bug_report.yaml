@@ -46,4 +46,4 @@ body:
       description: What an operating system do you use?
       placeholder: ex. macOS Big Sur 11.5.2
     validations:
-      required: true
+      required: false
