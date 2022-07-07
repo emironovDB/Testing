@@ -3,12 +3,6 @@ description: Suggest an idea for DBeaver
 labels: [feature request]
 body:
   - type: textarea
-    attributes:
-      value: |
-        Please, do not create issue duplicates. 
-        If you find the same or similar issue, just add a comment or vote for this feature. 
-        It helps us to track the most popular requests and fix them faster.
-  - type: textarea
     id: description
     attributes:
       label: Is your feature request related to a problem? Please describe.
