@@ -20,17 +20,20 @@ body:
       placeholder: |
         Provide a clear and concise description of what the bug is. 
         Include screenshots and video if needed.
-        Connection specification:
-        - Database name and version
-        - Driver name
-        - Do you use tunnels or proxies (SSH, SOCKS, etc)? 
-        Steps to reproduce, if exist:
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: Provide a detailed list of steps that reproduce the issue if it exists.
+      placeholder: |
         1. In this environment...
         2. With this config...
         3. Run '...'
         4. See error...
     validations:
-      required: true
+      required: false
   - type: input
     id: version
     attributes:
@@ -47,25 +50,3 @@ body:
       placeholder: ex. macOS Big Sur 11.5.2
     validations:
       required: true
-  - type: textarea
-    id: reproduction
-    attributes:
-      label: Steps to reproduce
-      description: Provide a detailed list of steps that reproduce the issue.
-      placeholder: |
-        1. In this environment...
-        2. With this config...
-        3. Run '...'
-        4. See error...
-    validations:
-      required: false
-  - type: textarea
-    id: extra
-    attributes:
-      label: Any additional information
-      description: |
-        Please provide a log-file, a link to a repository on GitHub, or provide a minimal code example that reproduces the problem.
-        This article can help you: [How extract the log-files from DBeaver](https://github.com/dbeaver/dbeaver/wiki/Log-files).
-        You may provide a screenshot of the application if you think it is relevant to your bug report.
-    validations:
-      required: false
