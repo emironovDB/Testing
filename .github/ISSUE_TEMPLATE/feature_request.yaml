@@ -2,12 +2,35 @@ name: New Feature
 description: Suggest an idea for DBeaver
 labels: [feature request]
 body:
+  - type: markdown
+    attributes:
+      value: >
+        **Thank you for wanting to suggest a feature for DBeaver!**
   - type: textarea
     id: description
     attributes:
-      label: Is your feature request related to a problem? Please describe.
-      description: A clear and concise description of what the problem is.
-      placeholder: Ex. I'm always frustrated when [...]
+      label: Summary
+      description: >
+        Describe the new feature/improvement you would like briefly below.
+
+
+        What's the problem this feature will solve?
+
+        What are you trying to do, that you are unable to achieve
+        with ansible-core as it currently stands?
+
+
+        * Provide examples of real-world use cases that this would enable
+        and how it solves the problem you described.
+
+        * How do you solve this now?
+
+        * Have you tried to work around the problem using other tools?
+
+        * Could there be a different approach to solving this issue?
+      placeholder: I am trying to do X with ansible-core from the devel branch on GitHub and
+                   I think that implementing a feature Y would be very helpful for me and
+                   every other user of ansible-core because of Z.
     validations:
       required: true
   - type: textarea
