@@ -17,6 +17,7 @@ body:
       label: Description
       description: |        
         Please describe what happened and what you expected.
+        This article can you help for provide a log-files: [How extract log-files.](https://github.com/dbeaver/dbeaver/wiki/Log-files)
       placeholder: |
         Provide a clear and concise description of what the bug is. 
         Include log-files, screenshots and video if needed.
