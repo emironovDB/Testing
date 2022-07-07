@@ -7,15 +7,28 @@ body:
       value: |
         Please provide all the information requested. Issues that do not follow this format are likely to stall.
         [Here are some tips for providing a minimal example.](https://github.com/dbeaver/dbeaver/wiki/Posting-issues)
+        
+        Please, do not create issue duplicates. 
+        If you find the same or similar issue, just add a comment or vote for this feature. 
+        It helps us to track the most popular requests and fix them faster.
   - type: textarea
     id: description
     attributes:
       label: Description
-      description: |
-        Please provide a clear and concise description of what the bug is. Include screenshots if needed.
-        
-        Please test using the latest DBeaver release to make sure your issue has not already been fixed.
-        [The latest version DBeaver.](https://dbeaver.io/download/)
+      description: |        
+        Please describe what happened and what you expected.
+      placeholder: |
+        Provide a clear and concise description of what the bug is. 
+        Include screenshots and video if needed.
+        Connection specification:
+        - Database name and version
+        - Driver name
+        - Do you use tunnels or proxies (SSH, SOCKS, etc)? 
+        Steps to reproduce, if exist:
+        1. In this environment...
+        2. With this config...
+        3. Run '...'
+        4. See error...
     validations:
       required: true
   - type: input
