@@ -33,11 +33,3 @@ body:
                    other user of DBeaver because of Z.
     validations:
       required: true
-  - type: textarea
-    id: additional
-    attributes:
-      label: Any additional context
-      description: Add any other context or screenshots about the feature request here.
-      placeholder:
-    validations:
-      required: false
