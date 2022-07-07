@@ -7,10 +7,6 @@ body:
       value: |
         Please provide all the information requested. Issues that do not follow this format are likely to stall.
         [Here are some tips for providing a minimal example.](https://github.com/dbeaver/dbeaver/wiki/Posting-issues)
-        
-        Please, do not create issue duplicates. 
-        If you find the same or similar issue, just add a comment or vote for this feature. 
-        It helps us to track the most popular requests and fix them faster.
   - type: textarea
     id: description
     attributes:
