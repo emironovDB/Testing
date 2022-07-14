@@ -12,5 +12,7 @@ contact_links:
   - name: Subscribe to our Twitter account
     url: https://twitter.com/dbeaver_news
     about: Stay tune with the community
-
+  - name: Visit our blog
+    url: https://dbeaver.com/blog/
+    about: Stay tune with the community
 
