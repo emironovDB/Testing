@@ -6,3 +6,6 @@ contact_links:
   - name: Try to install the last version of DBeaver
     url: https://dbeaver.io/download/
     about: Possible we already fixed your issue
+  - name: Watch our YouTube Channel
+    url: https://www.youtube.com/channel/UC-yOjsQLSaJVEghg6UB3N7A
+    about: We are posting a new feature every week
