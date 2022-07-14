@@ -5,7 +5,6 @@ body:
   - type: markdown
     attributes:
       value: >
-        **Thank you for wanting to suggest a feature for DBeaver!**
   - type: textarea
     id: description
     attributes:
