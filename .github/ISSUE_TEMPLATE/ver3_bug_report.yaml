@@ -1,5 +1,5 @@
 name: 🐛 Bug Report
-description: Report a reproducible bug or regression in DBeaver.
+description: Report a reproducible bug or regression in DBeaver
 labels: [bug, wait for review]
 body:
   - type: markdown
