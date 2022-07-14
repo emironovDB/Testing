@@ -4,6 +4,7 @@ labels: [feature request]
 body:
   - type: markdown
     attributes:
+      value: >
   - type: textarea
     id: description
     attributes:
