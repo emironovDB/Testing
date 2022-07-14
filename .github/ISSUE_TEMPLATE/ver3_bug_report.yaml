@@ -25,10 +25,10 @@ body:
       label: Steps to reproduce
       description: Provide a detailed list of steps that reproduce the issue if it exists.
       placeholder: |
-        1. In this environment...
-        2. With this config...
-        3. Run '...'
-        4. See error...
+        1. I try to connect to database '...'
+        2. With this config '...'
+        3. I push the button '...'
+        4. See an error...
     validations:
       required: false
   - type: input
