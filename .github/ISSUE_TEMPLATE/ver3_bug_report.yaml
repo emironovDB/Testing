@@ -28,7 +28,7 @@ body:
         1. I try to connect to database '...'
         2. With this config '...'
         3. I push the button '...'
-        4. See an error...
+        4. See an error '...'
     validations:
       required: false
   - type: input
