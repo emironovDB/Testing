@@ -11,8 +11,6 @@ body:
     attributes:
       label: Summary
       description: >
-        Describe the new feature/improvement you would like briefly below.
-        
         What are you trying to do, that you are unable to achieve
         with DBeaver as it currently stands?
 
