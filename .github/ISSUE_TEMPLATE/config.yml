@@ -3,16 +3,12 @@ contact_links:
   - name: How extract logs file from DBeaver
     url: https://github.com/dbeaver/dbeaver/wiki/Log-files
     about: A common thigs you should know before create a bug report 
-  - name: Try to install the last version of DBeaver
-    url: https://dbeaver.io/download/
-    about: Possible we already fixed your issue
-  - name: Watch our YouTube Channel
+  - name: Try advanced database management features in DBeaver PRO
+    url: https://dbeaver.com/download/?utm_source=github&utm_medium=social&utm_campaign=issue
+    about: Download a 14-day free trial on dbeaver.com. No credit card is needed.
+  - name: Learn how to use DBeaver effectively with our tutorial videos
     url: https://www.youtube.com/channel/UC-yOjsQLSaJVEghg6UB3N7A
-    about: We are posting a new feature every week
-  - name: Subscribe to our Twitter account
-    url: https://twitter.com/dbeaver_news
-    about: Stay tune with the community
-  - name: Visit our blog
-    url: https://dbeaver.com/blog/
-    about: Stay tune with the community
-
+    about: Subscribe to our youtube channel and watch new tutorials every week
+  - name: Follow us on the Facebook
+    url: https://www.facebook.com/DBeaverCorporation
+    about: Get everyday tips, detailed manuals, and DBeaver feature overviews.
