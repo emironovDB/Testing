@@ -8,7 +8,8 @@ body:
       label: Summary
       description: >
         
-        What functionality should be added to DBeaver? 
+        What functionality should be added to DBeaver?
+        
         Please describe the issue you want to solve with our app.
         
       
