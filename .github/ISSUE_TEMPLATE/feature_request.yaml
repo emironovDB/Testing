@@ -10,7 +10,8 @@ body:
         
         What functionality should be added to DBeaver? 
         Please describe the issue you want to solve with our app.
-        d
+        
+      
         Tell us how you tried to solve it prior to create this ticket.
       placeholder: I am trying to do X with DBeaver and
                    I think that implementing a feature Y would be very helpful for me and 
