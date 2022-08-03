@@ -38,6 +38,38 @@ body:
     validations:
       required: true
   - type: input
+    id: additional-extension
+    attributes:
+      label: Additional extensions
+      description: What additional extension do you use?
+      placeholder: example
+    validations:
+      required: false
+  - type: input
+    id: database-version
+    attributes:
+      label: Database name and version
+      description: What database and version do you use?
+      placeholder: example
+    validations:
+      required: false
+  - type: input
+    id: driver-version
+    attributes:
+      label: Driver name and version
+      description: What driver and version do you use?
+      placeholder: example
+    validations:
+      required: false
+  - type: input
+    id: database-version
+    attributes:
+      label: Tunnels and proxy
+      description: Do you use tunnels or proxies for the database connection?
+      placeholder: example
+    validations:
+      required: false
+  - type: input
     id: os-kind
     attributes:
       label: Operating System
